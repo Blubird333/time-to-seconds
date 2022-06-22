@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
-#include "time.cpp"
+#include "Time.cpp"
 using namespace std;
 
-void main(void){
+int main(){
     int a,b,c;
     string A,B,C;
     cout<<"Hours?";
@@ -29,7 +29,7 @@ void main(void){
     
     cout<<"The time is = "<<A<<":"<<B<<":"<<C<<endl;
     
-    time1 time;
+    Time time1;
     int total_time_in_sec = time1.totalsec(a,b,c);
     
     cout<<"Time in total seconds: "<<total_time_in_sec;
