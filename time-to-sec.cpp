@@ -1,4 +1,4 @@
-class time{
+class Time{
     public:
         int totalsec(int h,int m,int s){
             totsec = s+(m)*60+(h)*60*60;
