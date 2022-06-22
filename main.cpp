@@ -10,6 +10,7 @@ int main(){
     cout<<"Minutes?";
     cin>>b;
     cout<<"Seconds?";
+    cin>>c;
     
     if(a<10){
         A="0"+ to_string(a);
